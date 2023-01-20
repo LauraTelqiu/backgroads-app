@@ -4,12 +4,12 @@ import logo from '../images/logo.svg'
 
 function Navbar() {
   return (
-    <nav class="navbar">
-      <div class="nav-center">
-        <div class="nav-header">
-          <img src={logo} class="nav-logo" alt="backroads" />
-          <button type="button" class="nav-toggle" id="nav-toggle">
-            <i class="fas fa-bars"></i>
+    <nav className="navbar">
+      <div className="nav-center">
+        <div className="nav-header">
+          <img src={logo} className="nav-logo" alt="backroads" />
+          <button type="button" className="nav-toggle" id="nav-toggle">
+            <i className="fas fa-bars"></i>
           </button>
         </div>
         <ul className='nav-links' id='nav-links'>

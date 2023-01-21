@@ -2,6 +2,8 @@ import React from 'react'
 import { pageLinks, socialLinks } from '../data'
 import logo from '../images/logo.svg'
 
+
+
 function Navbar() {
   return (
     <nav className="navbar">

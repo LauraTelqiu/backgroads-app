@@ -39,6 +39,12 @@ Variables
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
+/*
+=============== 
+Global Styles
+===============
+*/
+
 * {
   margin: 0;
   padding: 0;
@@ -176,6 +182,12 @@ p {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
 }
 
 /*
@@ -506,7 +518,6 @@ Footer
 Navbar
 ===============
 */
-/* add :not(.nav-logo) to img */
 
 .navbar {
   position: fixed;
@@ -519,6 +530,7 @@ Navbar
   height: 4rem;
   display: flex;
   align-items: center;
+
 }
 
 .nav-icons {
@@ -535,6 +547,7 @@ Navbar
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav-toggle {
@@ -634,3 +647,7 @@ Navbar
     color: var(--clr-primary-8);
   }
 }
+
+/* set hero to 
+min-height:calc(100vh - 62px);
+*/

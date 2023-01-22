@@ -1,3 +1,4 @@
+
 import React from 'react'
 import { pageLinks, socialLinks } from '../data'
 import logo from '../images/logo.svg'
@@ -19,7 +20,7 @@ function Navbar() {
             const { id, href, text } = link
             return (
               <li key={id}>
-                <a href={href}>{text}</a>
+                <a className="nav-link" href={href}>{text}</a>
               </li>
             )
           })}
@@ -35,13 +36,9 @@ function Navbar() {
               </li>
             )
           })}
-
         </ul>
       </div>
     </nav>
   )
-
 }
-
-
 export default Navbar;
